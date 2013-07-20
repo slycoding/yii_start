@@ -1,0 +1,1355 @@
+2013/07/21 20:42:01 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:35:35 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:51:03 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:51:04 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:51:05 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:51:05 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:51:06 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:51:06 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:51:06 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:51:06 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:52:29 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:52:29 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:52:30 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:52:38 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:52:39 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:52:39 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:52:42 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:54:08 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:58:41 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 15:58:42 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:03:25 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:07:38 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:08:13 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:08:14 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:08:36 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:08:38 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:09:14 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:09:31 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:19:54 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/
+---
+2013/07/22 16:36:31 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 16:38:36 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:48:37 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.loginUrl" is not defined.' in Z:\yii-1.1.13.e9e4a0\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\YiiBase.php(220): CComponent->__set('loginUrl', Array)
+#1 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php?r=site/contact
+HTTP_REFERER=http://yiitest/index.php?r=site/page&view=about
+---
+2013/07/22 16:49:16 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 16:50:48 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://yiitest/index.php?r=site/contact
+---
+2013/07/22 17:28:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user '???_??????????'@'localhost' (using password: YES)' in Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Users))
+#7 Z:\home\yiitest\www\protected\models\Users.php(21): CActiveRecord::model('Users')
+#8 Z:\home\yiitest\www\protected\components\UserIdentity.php(21): Users::model()
+#9 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#13 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#24 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#25 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 17:29:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user '???_??????????'@'localhost' (using password: YES)' in Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Users))
+#7 Z:\home\yiitest\www\protected\models\Users.php(21): CActiveRecord::model('Users')
+#8 Z:\home\yiitest\www\protected\components\UserIdentity.php(21): Users::model()
+#9 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#13 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#24 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#25 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 17:33:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user '???_??????????'@'localhost' (using password: YES)' in Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Users))
+#7 Z:\home\yiitest\www\protected\models\Users.php(21): CActiveRecord::model('Users')
+#8 Z:\home\yiitest\www\protected\components\UserIdentity.php(21): Users::model()
+#9 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#13 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#24 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#25 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 17:35:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Users))
+#7 Z:\home\yiitest\www\protected\models\Users.php(21): CActiveRecord::model('Users')
+#8 Z:\home\yiitest\www\protected\components\UserIdentity.php(21): Users::model()
+#9 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#13 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#24 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#25 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 17:40:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Users))
+#7 Z:\home\yiitest\www\protected\models\Users.php(21): CActiveRecord::model('Users')
+#8 Z:\home\yiitest\www\protected\components\UserIdentity.php(21): Users::model()
+#9 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#13 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#24 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#25 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 17:40:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Users))
+#7 Z:\home\yiitest\www\protected\models\Users.php(21): CActiveRecord::model('Users')
+#8 Z:\home\yiitest\www\protected\components\UserIdentity.php(21): Users::model()
+#9 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#13 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#24 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#25 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 17:40:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Users))
+#7 Z:\home\yiitest\www\protected\models\Users.php(21): CActiveRecord::model('Users')
+#8 Z:\home\yiitest\www\protected\components\UserIdentity.php(21): Users::model()
+#9 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#13 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#24 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#25 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 17:51:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Users))
+#7 Z:\home\yiitest\www\protected\models\Users.php(21): CActiveRecord::model('Users')
+#8 Z:\home\yiitest\www\protected\components\UserIdentity.php(21): Users::model()
+#9 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#13 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#24 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#25 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 17:54:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Users))
+#7 Z:\home\yiitest\www\protected\models\Users.php(21): CActiveRecord::model('Users')
+#8 Z:\home\yiitest\www\protected\components\UserIdentity.php(21): Users::model()
+#9 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#13 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#24 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#25 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 17:59:52 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in Z:\yii-1.1.13.e9e4a0\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\yiitest\www\protected\components\UserIdentity.php(32): CComponent->__set('_id', '1')
+#1 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#17 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 18:04:19 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in Z:\yii-1.1.13.e9e4a0\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\yiitest\www\protected\components\UserIdentity.php(33): CComponent->__set('_id', '2')
+#1 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#17 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 18:13:33 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in Z:\yii-1.1.13.e9e4a0\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\yiitest\www\protected\components\UserIdentity.php(33): CComponent->__set('_id', '2')
+#1 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#17 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 18:25:41 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.id" is read only.' in Z:\yii-1.1.13.e9e4a0\framework\base\CComponent.php:170
+Stack trace:
+#0 Z:\home\yiitest\www\protected\components\UserIdentity.php(33): CComponent->__set('id', '2')
+#1 Z:\home\yiitest\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 Z:\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 Z:\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 Z:\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 Z:\home\yiitest\www\protected\controllers\DashboardController.php(57): CModel->validate()
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionLogin()
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/login')
+#17 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=dashboard/login
+HTTP_REFERER=http://yiitest/index.php?r=dashboard/login
+---
+2013/07/22 20:11:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/admin')
+#9 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=types/admin
+---
+2013/07/22 20:11:52 [error] [exception.CException] exception 'CException' with message 'TypesController and its behaviors do not have a method or closure named "processAdminCommand".' in Z:\yii-1.1.13.e9e4a0\framework\base\CComponent.php:265
+Stack trace:
+#0 Z:\home\yiitest\www\protected\controllers\TypesController.php(144): CComponent->__call('processAdminCom...', Array)
+#1 Z:\home\yiitest\www\protected\controllers\TypesController.php(144): TypesController->processAdminCommand()
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TypesController->actionAdmin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/admin')
+#13 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=types/admin
+---
+2013/07/22 20:16:44 [error] [exception.CException] exception 'CException' with message 'TypesController cannot find the requested view "admin".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#1 Z:\home\yiitest\www\protected\controllers\TypesController.php(162): CController->render('admin', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TypesController->actionAdmin()
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/admin')
+#13 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=types/admin
+---
+2013/07/22 20:17:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('view')
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/view')
+#9 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=types/view
+---
+2013/07/22 20:19:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in Z:\home\yiitest\www\protected\controllers\TypesController.php:186
+Stack trace:
+#0 Z:\home\yiitest\www\protected\controllers\TypesController.php(59): TypesController->loadModel()
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TypesController->actionView()
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('view')
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/view')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=types/view
+---
+2013/07/22 20:19:43 [error] [php] require() [<a href='function.require'>function.require</a>]: Filename cannot be empty (Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php:130)
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\zii\widgets\CListView.php(281): TypesController->renderFile()
+#1 Z:\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(160): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 Z:\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#4 Z:\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(128): CListView->renderContent()
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(173): CListView->run()
+#6 Z:\home\yiitest\www\protected\views\types\index.php(17): TypesController->widget()
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): TypesController->renderInternal()
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(869): TypesController->renderFile()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): TypesController->renderPartial()
+#11 Z:\home\yiitest\www\protected\controllers\TypesController.php(136): TypesController->render()
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TypesController->actionIndex()
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): TypesController->runAction()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): TypesController->filterAccessControl()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): TypesController->runActionWithFilters()
+#21 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): TypesController->run()
+#22 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#24 Z:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=types/index
+in Z:\home\yiitest\www\protected\views\types\index.php (17)
+in Z:\home\yiitest\www\protected\controllers\TypesController.php (136)
+in Z:\home\yiitest\www\index.php (13)
+2013/07/22 20:20:09 [error] [exception.CException] exception 'CException' with message 'TypesController cannot find the requested view "_form".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\yiitest\www\protected\views\types\create.php(15): CController->renderPartial('_form', Array)
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require('Z:\home\yiitest...')
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiitest...', Array, true)
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiitest...', Array, true)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 Z:\home\yiitest\www\protected\controllers\TypesController.php(83): CController->render('create', Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TypesController->actionCreate()
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('create')
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/create')
+#17 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=types/create
+---
+2013/07/22 20:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in Z:\home\yiitest\www\protected\controllers\TypesController.php:186
+Stack trace:
+#0 Z:\home\yiitest\www\protected\controllers\TypesController.php(92): TypesController->loadModel()
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TypesController->actionUpdate()
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/update')
+#12 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=types/update
+---
+2013/07/22 20:20:24 [error] [exception.CException] exception 'CException' with message 'TypesController cannot find the requested view "_form".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\yiitest\www\protected\views\types\create.php(15): CController->renderPartial('_form', Array)
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require('Z:\home\yiitest...')
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiitest...', Array, true)
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiitest...', Array, true)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 Z:\home\yiitest\www\protected\controllers\TypesController.php(83): CController->render('create', Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TypesController->actionCreate()
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('create')
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/create')
+#17 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=types/create
+---
+2013/07/22 20:22:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/index')
+#9 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=types/index
+---
+2013/07/22 20:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "type/admin".' in Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('type/admin')
+#1 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=type/admin
+---
+2013/07/22 20:54:45 [error] [exception.CException] exception 'CException' with message 'Alias "application.components.dashboardMenu" is invalid. Make sure it points to an existing PHP file and the file is readable.' in Z:\yii-1.1.13.e9e4a0\framework\YiiBase.php:316
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CWidgetFactory.php(146): YiiBase::import('application.com...', true)
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(TypesController), 'application.com...', Array)
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(172): CBaseController->createWidget('application.com...', Array)
+#3 Z:\home\yiitest\www\protected\views\layouts\dashboard.php(21): CBaseController->widget('application.com...')
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require('Z:\home\yiitest...')
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiitest...', Array, true)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\yiitest...', Array, true)
+#7 Z:\home\yiitest\www\protected\controllers\TypesController.php(162): CController->render('admin', Array)
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TypesController->actionAdmin()
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/admin')
+#19 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=types/admin
+---
+2013/07/22 20:58:14 [error] [exception.CException] exception 'CException' with message 'DashboardMenu cannot find the view "dashboardMenu".' in Z:\yii-1.1.13.e9e4a0\framework\web\widgets\CWidget.php:245
+Stack trace:
+#0 Z:\home\yiitest\www\protected\components\DashboardMenu.php(15): CWidget->render('dashboardMenu')
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(173): DashboardMenu->run()
+#2 Z:\home\yiitest\www\protected\views\layouts\dashboard.php(21): CBaseController->widget('application.com...')
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require('Z:\home\yiitest...')
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiitest...', Array, true)
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\yiitest...', Array, true)
+#6 Z:\home\yiitest\www\protected\controllers\TypesController.php(162): CController->render('admin', Array)
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TypesController->actionAdmin()
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/admin')
+#18 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=types/admin
+---
+2013/07/22 21:05:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "type/admin".' in Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('type/admin')
+#1 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=type/admin
+---
+2013/07/22 21:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "typeы/admin".' in Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('type??/admin')
+#1 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=type%D1%8B/admin
+---
+2013/07/22 21:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "typeы/admin".' in Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('type??/admin')
+#1 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=type%D1%8B/admin
+---
+2013/07/22 21:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "type/admin".' in Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('type/admin')
+#1 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=type/admin
+---
+2013/07/22 21:23:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Z:\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/index')
+#9 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=types/index
+HTTP_REFERER=http://yiitest/index.php?r=types/create
+---
+2013/07/22 21:53:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in Y:\home\qwe.xx\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 Y:\home\qwe.xx\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 Y:\home\qwe.xx\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Y:\home\qwe.xx\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 Y:\home\qwe.xx\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 Y:\home\qwe.xx\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 Y:\home\qwe.xx\www\framework\web\CController.php(291): CFilterChain->run()
+#6 Y:\home\qwe.xx\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Y:\home\qwe.xx\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 Y:\home\qwe.xx\www\framework\web\CWebApplication.php(141): CWebApplication->runController('types')
+#9 Y:\home\qwe.xx\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 Y:\home\qwe.xx\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=types
+---
+2013/07/22 22:26:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'qwe123'' in Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 Z:\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Types))
+#7 Z:\home\yiitest\www\protected\models\Types.php(18): CActiveRecord::model('Types')
+#8 Z:\home\yiitest\www\protected\controllers\TypesController.php(162): Types::model()
+#9 Z:\home\yiitest\www\protected\controllers\TypesController.php(91): TypesController->loadModel()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TypesController->actionUpdate()
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#18 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#20 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('types/update')
+#21 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=types/update&id=1
+HTTP_REFERER=http://yiitest/index.php?r=types/admin
+---
+2013/07/23 00:49:18 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "Y:\home\qwe.xx\www\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in Y:\home\fotos.xx\www\framework\web\CAssetManager.php:138
+Stack trace:
+#0 Y:\home\fotos.xx\www\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('Y:\home\qwe.xx\...')
+#1 Y:\home\fotos.xx\www\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 Y:\home\fotos.xx\www\framework\zii\widgets\grid\CGridView.php(350): CAssetManager->publish('Y:\home\fotos.x...')
+#3 Y:\home\fotos.xx\www\framework\web\CBaseController.php(147): CGridView->init()
+#4 Y:\home\fotos.xx\www\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 Y:\home\qwe.xx\www\protected\views\games\admin.php(65): CBaseController->widget('zii.widgets.gri...', Array)
+#6 Y:\home\fotos.xx\www\framework\web\CBaseController.php(126): require('Y:\home\qwe.xx\...')
+#7 Y:\home\fotos.xx\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Y:\home\qwe.xx\...', Array, true)
+#8 Y:\home\fotos.xx\www\framework\web\CController.php(869): CBaseController->renderFile('Y:\home\qwe.xx\...', Array, true)
+#9 Y:\home\fotos.xx\www\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 Y:\home\qwe.xx\www\protected\controllers\GamesController.php(150): CController->render('admin', Array)
+#11 Y:\home\fotos.xx\www\framework\web\actions\CInlineAction.php(49): GamesController->actionAdmin()
+#12 Y:\home\fotos.xx\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 Y:\home\fotos.xx\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 Y:\home\fotos.xx\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 Y:\home\fotos.xx\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 Y:\home\fotos.xx\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 Y:\home\fotos.xx\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 Y:\home\fotos.xx\www\framework\web\CController.php(291): CFilterChain->run()
+#19 Y:\home\fotos.xx\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 Y:\home\fotos.xx\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 Y:\home\fotos.xx\www\framework\web\CWebApplication.php(141): CWebApplication->runController('games/admin')
+#22 Y:\home\fotos.xx\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 Y:\home\qwe.xx\www\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?Games_sort=g_type&ajax=games-grid&r=games%2Fadmin
+HTTP_REFERER=http://qwe.xx/index.php?r=Games/admin
+---
+2013/07/23 00:49:22 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "Y:\home\qwe.xx\www\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in Y:\home\fotos.xx\www\framework\web\CAssetManager.php:138
+Stack trace:
+#0 Y:\home\fotos.xx\www\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('Y:\home\qwe.xx\...')
+#1 Y:\home\fotos.xx\www\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 Y:\home\fotos.xx\www\framework\zii\widgets\grid\CGridView.php(350): CAssetManager->publish('Y:\home\fotos.x...')
+#3 Y:\home\fotos.xx\www\framework\web\CBaseController.php(147): CGridView->init()
+#4 Y:\home\fotos.xx\www\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 Y:\home\qwe.xx\www\protected\views\games\admin.php(65): CBaseController->widget('zii.widgets.gri...', Array)
+#6 Y:\home\fotos.xx\www\framework\web\CBaseController.php(126): require('Y:\home\qwe.xx\...')
+#7 Y:\home\fotos.xx\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Y:\home\qwe.xx\...', Array, true)
+#8 Y:\home\fotos.xx\www\framework\web\CController.php(869): CBaseController->renderFile('Y:\home\qwe.xx\...', Array, true)
+#9 Y:\home\fotos.xx\www\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 Y:\home\qwe.xx\www\protected\controllers\GamesController.php(150): CController->render('admin', Array)
+#11 Y:\home\fotos.xx\www\framework\web\actions\CInlineAction.php(49): GamesController->actionAdmin()
+#12 Y:\home\fotos.xx\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 Y:\home\fotos.xx\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 Y:\home\fotos.xx\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 Y:\home\fotos.xx\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 Y:\home\fotos.xx\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 Y:\home\fotos.xx\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 Y:\home\fotos.xx\www\framework\web\CController.php(291): CFilterChain->run()
+#19 Y:\home\fotos.xx\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 Y:\home\fotos.xx\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 Y:\home\fotos.xx\www\framework\web\CWebApplication.php(141): CWebApplication->runController('games/admin')
+#22 Y:\home\fotos.xx\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 Y:\home\qwe.xx\www\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?Games_sort=g_id&ajax=games-grid&r=games%2Fadmin
+HTTP_REFERER=http://qwe.xx/index.php?r=Games/admin
+---
