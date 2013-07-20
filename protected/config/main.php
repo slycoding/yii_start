@@ -48,7 +48,10 @@ return array(
 		),
 		*/
 		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+			'connectionString'=>'mysql:host=localhost;dbname=ygsdb',
+                        'username'=>'имя_пользователя',
+                        'password'=>'пароль',
+                        'charset'=>'utf8',
 		),
 		// uncomment the following to use a MySQL database
 		/*
