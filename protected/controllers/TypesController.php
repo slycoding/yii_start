@@ -31,10 +31,10 @@ class TypesController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
+			/*array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
 				'users'=>array('*'),
-			),
+			),*/
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
 				'users'=>array('@'),
@@ -74,7 +74,7 @@ class TypesController extends Controller
 		{
 			$model->attributes=$_POST['Types'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->t_id));
+				$this->redirect(array('admin'));
 		}
 
 		$this->render('create',array(
@@ -97,7 +97,7 @@ class TypesController extends Controller
 		{
 			$model->attributes=$_POST['Types'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->t_id));
+				$this->redirect(array('admin'));
 		}
 
 		$this->render('update',array(

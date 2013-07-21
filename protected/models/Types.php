@@ -65,6 +65,11 @@ class Types extends CActiveRecord
 			't_name' => 'T Name',
 		);
 	}
+        
+        public function safeAttributes() 
+        {
+                return array('t_id', 't_name');
+        }
 
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
