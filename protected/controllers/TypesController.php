@@ -140,14 +140,25 @@ class TypesController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Types('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Types']))
-			$model->attributes=$_GET['Types'];
-
-		$this->render('admin',array(
-			'model'=>$model,
-		));
+		//обработка команды удаления
+                $this->processAdminCommand();
+                //формируем запрос
+                $criteria=new CDbCriteria;
+ 
+                $pages=new CPagination(Types::model()->count($criteria));
+                $pages->pageSize=self::PAGE_SIZE;
+                $pages->applyLimit($criteria);
+                //настраиваем сортировку
+                $sort=new CSort('Types');
+                $sort->applyOrder($criteria);
+                //выполняем запрос
+                $models=Types::model()->findAll($criteria);
+                //показываем страницу
+                $this->render('admin',array(
+                    'models'=>$models,
+                    'pages'=>$pages,
+                    'sort'=>$sort,
+                ));
 	}
 
 	/**
