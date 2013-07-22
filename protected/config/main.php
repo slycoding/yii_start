@@ -11,6 +11,7 @@ return array(
 
 	// preloading 'log' component
 	'preload'=>array('log'),
+        //'defaultController'=>'dashboard',
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -35,6 +36,7 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+                        'loginUrl'=>array('dashboard/login'),
 		),
 		// uncomment the following to enable URLs in path-format
 		/*
