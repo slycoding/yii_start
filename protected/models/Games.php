@@ -58,6 +58,7 @@ class Games extends CActiveRecord
 		return array(
 			'ygs_types' => array(self::MANY_MANY, 'YgsTypes', 'ygs_games_types(gt_game_id, gt_type_id)'),
 			'ygs_screenshots' => array(self::HAS_MANY, 'YgsScreenshots', 's_game_id'),
+                        'gtype' => array(self::BELONGS_TO, 'Types', 'g_main_type'),
 		);
 	}
 

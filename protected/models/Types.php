@@ -52,6 +52,7 @@ class Types extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'ygs_games' => array(self::MANY_MANY, 'YgsGames', 'ygs_games_types(gt_game_id, gt_type_id)'),
+                        'tgame'=>array(self::HAS_MANY, 'Games', 't_id'),
 		);
 	}
 
