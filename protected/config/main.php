@@ -51,8 +51,8 @@ return array(
 		*/
 		'db'=>array(
 			'connectionString'=>'mysql:host=localhost;dbname=ygsdb',
-                        'username'=>'root',
-                        'password'=>'',
+                        'username'=>'myroot',
+                        'password'=>'4dark4',
                         'charset'=>'utf8',
 		),
 		// uncomment the following to use a MySQL database
