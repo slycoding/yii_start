@@ -1,12 +1,12 @@
 <?php
-//страница "Изменить жанр"
-//используется шаблон dashboard
+//СЃС‚СЂР°РЅРёС†Р° "РР·РјРµРЅРёС‚СЊ Р¶Р°РЅСЂ"
+//РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ С€Р°Р±Р»РѕРЅ dashboard
 $this->layout = 'dashboard'; ?>
-<h2>Изменить жанр: <?php echo $model->t_name; ?></h2>
+<h2>РР·РјРµРЅРёС‚СЊ Р¶Р°РЅСЂ: <?php echo $model->t_name; ?></h2>
  
 <div class="actionBar">
-[<?php echo CHtml::link('Управление жанрами',array('admin')); ?>]
-[<?php echo CHtml::link('Создать жанр',array('create')); ?>]
+[<?php echo CHtml::link('РЈРїСЂР°РІР»РµРЅРёРµ Р¶Р°РЅСЂР°РјРё',array('admin')); ?>]
+[<?php echo CHtml::link('РЎРѕР·РґР°С‚СЊ Р¶Р°РЅСЂ',array('create')); ?>]
 </div>
  
 <?php echo $this->renderPartial('_form', array(

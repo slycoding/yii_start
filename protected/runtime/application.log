@@ -1248,3 +1248,28 @@ Stack trace:
 REQUEST_URI=/index.php?r=types/index
 HTTP_REFERER=http://yiitest/index.php?r=types/create
 ---
+2013/07/22 21:41:23 [error] [exception.CException] exception 'CException' with message 'UsersController cannot find the requested view "_form".' in Z:\yii-1.1.13.e9e4a0\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\yiitest\www\protected\views\users\create.php(15): CController->renderPartial('_form', Array)
+#1 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require('Z:\home\yiitest...')
+#2 Z:\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yiitest...', Array, true)
+#3 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yiitest...', Array, true)
+#4 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 Z:\home\yiitest\www\protected\controllers\UsersController.php(82): CController->render('create', Array)
+#6 Z:\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#7 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('create')
+#16 Z:\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('users/create')
+#17 Z:\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 Z:\home\yiitest\www\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=users/create
+HTTP_REFERER=http://yiitest/index.php?r=types/admin&sort=t_id
+---
