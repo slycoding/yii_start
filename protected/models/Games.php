@@ -25,6 +25,18 @@ class Games extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
+        private $_gameType = null;
+        public function getGameType() {
+            if ($this->_gameType === null && $this->gtype !== null) {
+                $this->_gameType = $this->gtype->t_name;
+            }
+            return $this->_gameType;
+        }
+        public function setGameType($value)
+        {
+            $this->_gameType = $value;
+        }
+    
 	public function tableName()
 	{
 		return 'ygs_games';
@@ -44,7 +56,7 @@ class Games extends CActiveRecord
 			array('g_shortdescr, g_fulldescr, g_publish_date', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('g_id, g_rate, g_name_url, g_main_type, g_type, g_added, g_size, g_name, g_medium_pic, g_small_pic, g_download_link, g_shortdescr, g_fulldescr, g_publish_date, g_state', 'safe', 'on'=>'search'),
+			array('g_id, gameType, g_rate, g_name_url, g_main_type, g_type, g_added, g_size, g_name, g_medium_pic, g_small_pic, g_download_link, g_shortdescr, g_fulldescr, g_publish_date, g_state', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -68,6 +80,7 @@ class Games extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
+                        'gameType' => 'G Main Type',
 			'g_id' => 'G',
 			'g_rate' => 'G Rate',
 			'g_name_url' => 'G Name Url',
@@ -103,6 +116,9 @@ class Games extends CActiveRecord
 		// should not be searched.
 
 		$criteria=new CDbCriteria;
+                $criteria->with = "gtype";
+                
+                $criteria->compare('gtype.t_name', $this->gameType, true);
 
 		$criteria->compare('g_id',$this->g_id);
 
@@ -133,10 +149,31 @@ class Games extends CActiveRecord
 		$criteria->compare('g_publish_date',$this->g_publish_date,true);
 
 		$criteria->compare('g_state',$this->g_state);
+                
 
-		return new CActiveDataProvider('Games', array(
-			'criteria'=>$criteria,
-		));
+		$sort = new CSort();
+                $sort->defaultOrder = 'g_id';
+                /*$sort->attributes['gameType'] = array( 
+                        'asc' => 'gtype.t_name',
+                        'desc' => 'gtype.t_name DESC',
+                    );*/
+                
+                $sort->attributes = array(
+                        'g_id',
+                        'g_rate',
+                        'g_name_url',
+                        'g_type',
+                        'g_added',
+                        'gameType' => array( 
+                            'asc' => 'gtype.t_name',
+                            'desc' => 'gtype.t_name DESC',
+                        )
+                );
+                
+                return new CActiveDataProvider('Games', array(
+                    'criteria' => $criteria,
+                    'sort' => $sort
+                ));
 	}
 
 	/**

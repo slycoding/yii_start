@@ -45,10 +45,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'g_id',
 		'g_rate',
 		'g_name_url',
-                array(
-                    'name' => 'g_main_type',
-                    'value' => '$data->gtype->t_name',
-                ), 
+                'gameType', 
 		'g_type',
 		'g_added',
 		/*
