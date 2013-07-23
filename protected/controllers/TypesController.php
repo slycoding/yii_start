@@ -2,6 +2,7 @@
 
 class TypesController extends Controller
 {
+        const PAGE_SIZE=10;
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
@@ -159,6 +160,16 @@ class TypesController extends Controller
                     'pages'=>$pages,
                     'sort'=>$sort,
                 ));
+	}
+        
+        protected function processAdminCommand()
+	{
+		if(isset($_POST['command'], $_POST['id']) && $_POST['command']==='delete')
+		{
+			$this->loadTypes($_POST['id'])->delete();
+			// reload the current page to avoid duplicated delete actions
+			$this->refresh();
+		}
 	}
 
 	/**

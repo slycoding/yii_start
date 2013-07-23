@@ -61,8 +61,8 @@ class Types extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			't_id' => 'ID Æàíðà',
-			't_name' => 'Æàíð',
+			't_id' => 'ID Ð¶Ð°Ð½Ñ€Ð°',
+			't_name' => 'Ð–Ð°Ð½Ñ€',
 		);
 	}
         
