@@ -12,6 +12,10 @@
 	<?php echo CHtml::encode($data->g_name_url); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('g_main_type')); ?>:</b>
+	<?php echo CHtml::encode($data->g_main_type); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('g_type')); ?>:</b>
 	<?php echo CHtml::encode($data->g_type); ?>
 	<br />
@@ -24,11 +28,11 @@
 	<?php echo CHtml::encode($data->g_size); ?>
 	<br />
 
+	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('g_name')); ?>:</b>
 	<?php echo CHtml::encode($data->g_name); ?>
 	<br />
 
-	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('g_medium_pic')); ?>:</b>
 	<?php echo CHtml::encode($data->g_medium_pic); ?>
 	<br />

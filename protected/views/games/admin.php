@@ -45,10 +45,11 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'g_id',
 		'g_rate',
 		'g_name_url',
+		'g_main_type',
 		'g_type',
 		'g_added',
-		'g_size',
 		/*
+		'g_size',
 		'g_name',
 		'g_medium_pic',
 		'g_small_pic',

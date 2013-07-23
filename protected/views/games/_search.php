@@ -21,6 +21,11 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->label($model,'g_main_type'); ?>
+		<?php echo $form->textField($model,'g_main_type',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->label($model,'g_type'); ?>
 		<?php echo $form->textField($model,'g_type'); ?>
 	</div>

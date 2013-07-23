@@ -7,6 +7,7 @@
  * @property integer $g_id
  * @property integer $g_rate
  * @property string $g_name_url
+ * @property string $g_main_type
  * @property integer $g_type
  * @property string $g_added
  * @property integer $g_size
@@ -39,11 +40,11 @@ class Games extends CActiveRecord
 		return array(
 			array('g_id, g_rate, g_name_url, g_type, g_added, g_size, g_name, g_medium_pic, g_small_pic, g_download_link, g_state', 'required'),
 			array('g_id, g_rate, g_type, g_size, g_state', 'numerical', 'integerOnly'=>true),
-			array('g_name_url, g_name, g_medium_pic, g_small_pic, g_download_link', 'length', 'max'=>255),
+			array('g_name_url, g_main_type, g_name, g_medium_pic, g_small_pic, g_download_link', 'length', 'max'=>255),
 			array('g_shortdescr, g_fulldescr, g_publish_date', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('g_id, g_rate, g_name_url, g_type, g_added, g_size, g_name, g_medium_pic, g_small_pic, g_download_link, g_shortdescr, g_fulldescr, g_publish_date, g_state', 'safe', 'on'=>'search'),
+			array('g_id, g_rate, g_name_url, g_main_type, g_type, g_added, g_size, g_name, g_medium_pic, g_small_pic, g_download_link, g_shortdescr, g_fulldescr, g_publish_date, g_state', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -69,6 +70,7 @@ class Games extends CActiveRecord
 			'g_id' => 'G',
 			'g_rate' => 'G Rate',
 			'g_name_url' => 'G Name Url',
+			'g_main_type' => 'G Main Type',
 			'g_type' => 'G Type',
 			'g_added' => 'G Added',
 			'g_size' => 'G Size',
@@ -106,6 +108,8 @@ class Games extends CActiveRecord
 		$criteria->compare('g_rate',$this->g_rate);
 
 		$criteria->compare('g_name_url',$this->g_name_url,true);
+
+		$criteria->compare('g_main_type',$this->g_main_type,true);
 
 		$criteria->compare('g_type',$this->g_type);
 

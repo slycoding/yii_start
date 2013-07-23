@@ -21,6 +21,7 @@ $this->menu=array(
 		'g_id',
 		'g_rate',
 		'g_name_url',
+		'g_main_type',
 		'g_type',
 		'g_added',
 		'g_size',
