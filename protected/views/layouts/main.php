@@ -32,6 +32,8 @@
 				array('label'=>'Home', 'url'=>array('/site/index')),
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
+                                array('label'=>'Types', 'url'=>array('/Types/index')),
+                                array('label'=>'Games', 'url'=>array('/Games/index')),
                                 array('label'=>'Login', 'url'=>array('/dashboard/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
