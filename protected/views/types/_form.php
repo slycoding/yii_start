@@ -1,36 +1,24 @@
-<?php //форма создания/изменения жанра ?>
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
-</head>
-<body>
-<div class="yiiForm">
+<div class="form">
 
-<p>
-Обязательные поля отмечены <span class="required">*</span>.
-</p>
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'types-form',
+	'enableAjaxValidation'=>false,
+)); ?>
 
-<?php echo CHtml::beginForm(); ?>
+	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
-<?php echo CHtml::errorSummary($model); ?>
+	<?php echo $form->errorSummary($model); ?>
 
-<div class="simple">
-<?php echo CHtml::activeLabelEx($model,'t_id'); ?>
-<?php echo CHtml::activeTextField($model,'t_id',array('size'=>45,'maxlength'=>45)); ?>
-</div>
+	<div class="row">
+		<?php echo $form->labelEx($model,'t_name'); ?>
+		<?php echo $form->textField($model,'t_name',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->error($model,'t_name'); ?>
+	</div>
 
-<div class="simple">
-<?php echo CHtml::activeLabelEx($model,'t_name'); ?>
-<?php echo CHtml::activeTextField($model,'t_name',array('size'=>45,'maxlength'=>45)); ?>
-</div>
+	<div class="row buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+	</div>
 
-<div class="action">
-<?php echo CHtml::submitButton($update ? 'Изменить' : 'Создать'); ?>
-</div>
+<?php $this->endWidget(); ?>
 
-<?php echo CHtml::endForm(); ?>
-
-</div><!-- yiiForm -->
-</body>
-</html>
+</div><!-- form -->

@@ -1,39 +1,51 @@
 <?php
-//страница "Управление жанрами"
-//используется шаблон dashboard
-$this->layout = 'dashboard';
+$this->breadcrumbs=array(
+	'Types'=>array('index'),
+	'Manage',
+);
+
+$this->menu=array(
+	array('label'=>'List Types', 'url'=>array('index')),
+	array('label'=>'Create Types', 'url'=>array('create')),
+);
+
+Yii::app()->clientScript->registerScript('search', "
+$('.search-button').click(function(){
+	$('.search-form').toggle();
+	return false;
+});
+$('.search-form form').submit(function(){
+	$('#types-grid').yiiGridView('update', {
+		data: $(this).serialize()
+	});
+	return false;
+});
+");
 ?>
-<div class="grid_8" id="types_admin">
-<h2>Управление жанрами</h2>
 
-<div class="actionBar">
-[<?php echo CHtml::link('Создать жанр',array('create')); ?>]
-</div>
+<h1>Manage Types</h1>
 
-<table class="dataGrid">
-  <thead>
-  <tr>
-    <th><?php echo $sort->link('t_id'); ?></th>
-    <th><?php echo $sort->link('t_name'); ?></th>
-	<th>Actions</th>
-  </tr>
-  </thead>
-  <tbody>
-<?php foreach($models as $n=>$model): ?>
-  <tr class="<?php echo $n%2?'even':'odd';?>">
-    <td><?php echo CHtml::link($model->t_id,array('show','id'=>$model->t_id)); ?></td>
-    <td><?php echo CHtml::encode($model->t_name); ?></td>
-    <td>
-      <?php echo CHtml::link('Update',array('update','id'=>$model->t_id)); ?>
-      <?php echo CHtml::linkButton('Delete',array(
-      	  'submit'=>'',
-      	  'params'=>array('command'=>'delete','id'=>$model->t_id),
-      	  'confirm'=>"Are you sure to delete #{$model->t_id}?")); ?>
-	</td>
-  </tr>
-<?php endforeach; ?>
-  </tbody>
-</table>
-<br/>
-<?php $this->widget('CLinkPager',array('pages'=>$pages)); ?>
-</div><!-- types_admin -->
+<p>
+You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
+or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
+</p>
+
+<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<div class="search-form" style="display:none">
+<?php $this->renderPartial('_search',array(
+	'model'=>$model,
+)); ?>
+</div><!-- search-form -->
+
+<?php $this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'types-grid',
+	'dataProvider'=>$model->search(),
+	'filter'=>$model,
+	'columns'=>array(
+		't_id',
+		't_name',
+		array(
+			'class'=>'CButtonColumn',
+		),
+	),
+)); ?>

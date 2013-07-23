@@ -1,15 +1,18 @@
 <?php
-//страница "Изменить жанр"
-//используется шаблон dashboard
-$this->layout = 'dashboard'; ?>
-<h2>Изменить жанр: <?php echo $model->t_name; ?></h2>
- 
-<div class="actionBar">
-[<?php echo CHtml::link('Управление жанрами',array('admin')); ?>]
-[<?php echo CHtml::link('Создать жанр',array('create')); ?>]
-</div>
- 
-<?php echo $this->renderPartial('_form', array(
-    'model'=>$model,
-    'update'=>true,
-)); ?>
+$this->breadcrumbs=array(
+	'Types'=>array('index'),
+	$model->t_id=>array('view','id'=>$model->t_id),
+	'Update',
+);
+
+$this->menu=array(
+	array('label'=>'List Types', 'url'=>array('index')),
+	array('label'=>'Create Types', 'url'=>array('create')),
+	array('label'=>'View Types', 'url'=>array('view', 'id'=>$model->t_id)),
+	array('label'=>'Manage Types', 'url'=>array('admin')),
+);
+?>
+
+<h1>Update Types <?php echo $model->t_id; ?></h1>
+
+<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

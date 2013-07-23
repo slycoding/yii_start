@@ -2,7 +2,6 @@
 
 class TypesController extends Controller
 {
-        const PAGE_SIZE=10;
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
@@ -32,10 +31,10 @@ class TypesController extends Controller
 	public function accessRules()
 	{
 		return array(
-			/*array('allow',  // allow all users to perform 'index' and 'view' actions
+			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
 				'users'=>array('*'),
-			),*/
+			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
 				'users'=>array('@'),
@@ -75,7 +74,7 @@ class TypesController extends Controller
 		{
 			$model->attributes=$_POST['Types'];
 			if($model->save())
-				$this->redirect(array('admin'));
+				$this->redirect(array('view','id'=>$model->t_id));
 		}
 
 		$this->render('create',array(
@@ -98,7 +97,7 @@ class TypesController extends Controller
 		{
 			$model->attributes=$_POST['Types'];
 			if($model->save())
-				$this->redirect(array('admin'));
+				$this->redirect(array('view','id'=>$model->t_id));
 		}
 
 		$this->render('update',array(
@@ -141,35 +140,14 @@ class TypesController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		//обработка команды удаления
-                $this->processAdminCommand();
-                //формируем запрос
-                $criteria=new CDbCriteria;
- 
-                $pages=new CPagination(Types::model()->count($criteria));
-                $pages->pageSize=self::PAGE_SIZE;
-                $pages->applyLimit($criteria);
-                //настраиваем сортировку
-                $sort=new CSort('Types');
-                $sort->applyOrder($criteria);
-                //выполняем запрос
-                $models=Types::model()->findAll($criteria);
-                //показываем страницу
-                $this->render('admin',array(
-                    'models'=>$models,
-                    'pages'=>$pages,
-                    'sort'=>$sort,
-                ));
-	}
-        
-        protected function processAdminCommand()
-	{
-		if(isset($_POST['command'], $_POST['id']) && $_POST['command']==='delete')
-		{
-			$this->loadTypes($_POST['id'])->delete();
-			// reload the current page to avoid duplicated delete actions
-			$this->refresh();
-		}
+		$model=new Types('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['Types']))
+			$model->attributes=$_GET['Types'];
+
+		$this->render('admin',array(
+			'model'=>$model,
+		));
 	}
 
 	/**
